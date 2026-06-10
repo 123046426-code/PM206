@@ -1,19 +1,14 @@
 /*Zona1: Importaciones de componentes y archivos*/
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image } from 'react-native';
-import { Saludo } from './components/Saludo';
-import { Saludo2 } from './components/Saludo2';
+import { StyleSheet, View } from 'react-native';
+import { Perfil } from './components/Perfil';
+
 
 //Zona2: Main - Hogar de los componentes
 export default function App() {
   return (
     <View style={styles.container}>
-      <Image source={require('./assets/wave.png')} />
-      <Text>Hola mundo</Text>
-      <Text>-----------Componente Simple-------------</Text>
-      <Saludo />
-      <Text>-----------Componente Compuesto-------------</Text>
-      <Saludo2 />
+      <Perfil />
       <StatusBar style="auto" />
     </View>
   );
