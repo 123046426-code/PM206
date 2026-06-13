@@ -1,6 +1,6 @@
 /*Zona1: Importaciones de componentes y archivos*/
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 import { Perfil } from './components/Perfil';
 
 
@@ -8,8 +8,23 @@ import { Perfil } from './components/Perfil';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Perfil />
-      <StatusBar style="auto" />
+      <Perfil nombre="Andrés Martínez Badillo" 
+      carrera="Sistemas Computacionales" 
+      materia="Programación Móvil" 
+      cuatri="Noveno Cuatrimestre">
+      </Perfil>
+
+      <Text>------------------------------------</Text>
+
+      <Text>------------------------------------</Text>
+
+      <Perfil nombre="Martin Rivera Diaz" 
+      carrera="Administración" 
+      materia="Excel 2" 
+      cuatri="Noveno Cuatrimestre" >
+      </Perfil> 
+      <StatusBar style="auto"/>
+      
     </View>
   );
 }
