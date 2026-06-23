@@ -1,15 +1,13 @@
 /*Zona1: Importaciones de componentes y archivos*/
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Text } from 'react-native';
-import MenuScreen from './screens/MenuScreen';
 
 
 //Zona2: Main - Hogar de los componentes
-export default function App() {
+export default function TextInputScreen () {
   return (
     <View style={styles.container}>
-      <MenuScreen/>
-
+      <Text>Aqui va la práctica de Saltano</Text>
       <StatusBar style="auto"/>
       
     </View>
@@ -25,4 +23,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     flexDirection: 'column',
   },
+  tarjetaRoja:{backgroundColor: '#FF6B6B'},
+  tarjetaVerde:{backgroundColor: '#6BCB77'},
 });
