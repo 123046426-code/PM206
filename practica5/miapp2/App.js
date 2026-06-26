@@ -1,6 +1,6 @@
 /*Zona1: Importaciones de componentes y archivos*/
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View, Text } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import MenuScreen from './screens/MenuScreen';
 
 
