@@ -1,28 +1,99 @@
-/*Zona1: Importaciones de componentes y archivos*/
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View, Text } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import {
+  View,
+  Text,
+  StyleSheet,
+  ImageBackground,
+  ActivityIndicator
+} from 'react-native';
 
+import * as SplashScreen from 'expo-splash-screen';
 
-//Zona2: Main - Hogar de los componentes
-export default function ImageBackgroundScreen () {
+SplashScreen.preventAutoHideAsync().catch(() => {
+});
+
+export default function ImageBackgroundScreen() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    async function prepararAplicacion() {
+      try {
+        await new Promise((resolve) => setTimeout(resolve, 3000));
+      } catch (e) {
+        console.warn(e);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    prepararAplicacion();
+  }, []);
+
+  useEffect(() => {
+    if (!loading) {
+      SplashScreen.hideAsync();
+    }
+  }, [loading]);
+
+  if (loading) {
+    return (
+      <View style={styles.splash}>
+        <ActivityIndicator size="large" color="#0000ff" style={{ marginBottom: 20 }} />
+        <Text style={styles.splashText}>Cargando aplicación...</Text>
+      </View>
+    );
+  }
+
   return (
-    <View style={styles.container}>
-      <Text>Aqui va la práctica de Martín tirilin</Text>
-      <StatusBar style="auto"/>
-      
-    </View>
+    <ImageBackground
+      source={{ uri: 'https://picsum.photos/500/900' }}
+      style={styles.background}
+      resizeMode="cover"
+    >
+      {}
+      <View style={styles.overlay}>
+        <Text style={styles.titulo}>Bienvenido a React Native</Text>
+        <Text style={styles.subtitulo}>
+          Ejemplo de ImageBackground y SplashScreen
+        </Text>
+      </View>
+    </ImageBackground>
   );
 }
 
-//Zona3: Estilos y posicionamiento
 const styles = StyleSheet.create({
-  container: {
+  splash: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
     justifyContent: 'center',
-    flexDirection: 'column',
+    alignItems: 'center',
+    backgroundColor: '#ffffff',
   },
-  tarjetaRoja:{backgroundColor: '#FF6B6B'},
-  tarjetaVerde:{backgroundColor: '#6BCB77'},
+  splashText: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#333333',
+  },
+  background: {
+    flex: 1,
+    width: '100%',
+  },
+  overlay: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.4)',
+    paddingHorizontal: 20,
+  },
+  titulo: {
+    fontSize: 28,
+    color: '#ffffff',
+    fontWeight: 'bold',
+    marginBottom: 10,
+    textAlign: 'center',
+  },
+  subtitulo: {
+    fontSize: 18,
+    color: '#e0e0e0',
+    textAlign: 'center',
+  },
 });
