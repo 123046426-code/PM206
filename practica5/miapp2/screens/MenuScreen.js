@@ -8,6 +8,8 @@ import PressableScreen from './PressableScreen';
 import TextInputScreen from './TextInputScreen';
 import FlatListScreen from './FlatListScreen';
 import ImageBackgroundScreen from './ImageBackgroundScreen';
+import ActivityIndicatorScreen from './ActivityIndicatorScreen';
+import ModalScreen from './ModalScreen';
 
 
 
@@ -28,6 +30,10 @@ export default function MenuScreen () {
             return <FlatListScreen/>;
         case 'imageBackground':
             return <ImageBackgroundScreen/>;
+        case 'activityIndicator':
+            return <ActivityIndicatorScreen/>;
+        case 'modal':
+            return <ModalScreen/>;
         case 'menu':
             default:
             return (
@@ -39,6 +45,8 @@ export default function MenuScreen () {
                     <Button title='TextInput' onPress={() => setScreen('textInput')}></Button>
                     <Button title='FlatList' onPress={() => setScreen('flatList')}></Button>
                     <Button title='ImageBackground' onPress={() => setScreen('imageBackground')}></Button>
+                    <Button title='ActivityIndicator' onPress={() => setScreen('activityIndicator')}></Button>
+                    <Button title='Modal' onPress={() => setScreen('modal')}></Button>
                     <StatusBar style="auto"/>
                  </View>
             );   
