@@ -7,11 +7,6 @@ import {
   ActivityIndicator
 } from 'react-native';
 
-import * as SplashScreen from 'expo-splash-screen';
-
-SplashScreen.preventAutoHideAsync().catch(() => {
-});
-
 export default function ImageBackgroundScreen() {
   const [loading, setLoading] = useState(true);
 
@@ -28,12 +23,6 @@ export default function ImageBackgroundScreen() {
 
     prepararAplicacion();
   }, []);
-
-  useEffect(() => {
-    if (!loading) {
-      SplashScreen.hideAsync();
-    }
-  }, [loading]);
 
   if (loading) {
     return (
