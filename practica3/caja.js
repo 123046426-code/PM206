@@ -11,7 +11,7 @@ function mostrarVista(vista) {
 }
 
 function actualizarTotalCaja() {
-  totalAcumuladoCaja = pedidos.reduce((sum, { total }) => sum + total, 0);
+  const totalAcumuladoCaja = pedidos.reduce((sum, { total }) => sum + total, 0);
   document.getElementById("total-acumulado-caja").innerHTML = 
     `Total acumulado (con IVA): ${config.moneda}${totalAcumuladoCaja.toFixed(2)}`;
 }

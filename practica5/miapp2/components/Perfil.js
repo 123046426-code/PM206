@@ -58,3 +58,18 @@ const estilos = StyleSheet.create({
     );
 } */
 
+/*Para utilizar este componente en App.js, se debe importar y luego usarlo dentro del return de la función App, pasando los props necesarios. Por ejemplo:
+import { Perfil } from './components/Perfil';
+
+export default function App() {
+  return (
+    <View>
+      <Perfil nombre="Juan Pérez" 
+      carrera="Ingeniería en Sistemas" 
+      materia="Programación" 
+      cuatri="Cuatrimestre 3" 
+      estiloE={{backgroundColor: 'lightgray'}} />
+    </View>
+  );
+}
+*/
