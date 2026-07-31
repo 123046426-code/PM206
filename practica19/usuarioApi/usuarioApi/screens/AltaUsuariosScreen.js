@@ -22,7 +22,8 @@ export default function App() {
 
     try{
       setCargando(true);
-      const respuesta= await fetch('http://localhost:5000/v1/usuarios', 
+      const base = require('../utils/apiConfig').getApiBase();
+      const respuesta= await fetch(`${base}/v1/usuarios`,
         {
           method: 'POST',
           headers: {"content-type": "application/json"},

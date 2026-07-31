@@ -1,14 +1,17 @@
-import React, {useState, useEffect} from 'react';
-import {SafeAreaView,View,Text,FlatList,StyleSheet,
-} from 'react-native';
+import React, {useState, useCallback} from 'react';
+import {View,Text,FlatList,StyleSheet,Pressable} from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import { useRouter } from 'expo-router';
+import { useFocusEffect } from '@react-navigation/native';
 
 export default function ConsultaUsuariosScreen() {
-
+  const router = useRouter();
   const [usuarios, setUsuarios] = useState([]);
 
   const obtenerUsuarios = async () => {
     try{
-      const respuseta= await fetch('http://localhost:5000/v1/usuarios'); //todo el http incluido el puerto
+      const base = require('../utils/apiConfig').getApiBase();
+      const respuseta= await fetch(`${base}/v1/usuarios`); // http incluido con puerto
       const datos= await respuseta.json();
       console.log("Respuesta API: ", datos);
       setUsuarios(datos.usuarios);
@@ -17,7 +20,11 @@ export default function ConsultaUsuariosScreen() {
     }
   };
 
-  useEffect(()=>{obtenerUsuarios()},[]);
+  useFocusEffect(
+    useCallback(() => {
+      obtenerUsuarios();
+    }, [])
+  );
 
   const renderTarjeta = ({ item }) => (
     <View style={styles.card}>
@@ -29,6 +36,19 @@ export default function ConsultaUsuariosScreen() {
       <Text style={styles.info}>
         Edad: {item.edad} años
       </Text>
+
+      <View style={styles.detalleRow}>
+        <Pressable
+          style={styles.botonDetalle}
+          onPress={() => {
+            const detallesRuta = `/detalles?nombre=${encodeURIComponent(item.nombre)}&edad=${encodeURIComponent(item.edad)}&id=${encodeURIComponent(item.id)}`;
+            router.push(detallesRuta);
+          }}
+        >
+          <Text style={styles.textoBotonDetalle}>Ver detalles</Text>
+          <Text style={styles.flecha}>→</Text>
+        </Pressable>
+      </View>
 
     </View>
   );
@@ -101,6 +121,39 @@ const styles = StyleSheet.create({
   info: {
     fontSize: 16,
     color: '#4B5563',
+  },
+
+  detalleRow: {
+    marginTop: 12,
+    alignItems: 'flex-end',
+  },
+
+  botonDetalle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#2563EB',
+    paddingVertical: 10,
+    paddingHorizontal: 18,
+    borderRadius: 14,
+    borderWidth: 1,
+    borderColor: '#1D4ED8',
+    shadowColor: '#2563EB',
+    shadowOpacity: 0.18,
+    shadowRadius: 10,
+    shadowOffset: { width: 0, height: 4 },
+  },
+
+  textoBotonDetalle: {
+    color: '#FFFFFF',
+    fontSize: 15,
+    fontWeight: '700',
+  },
+
+  flecha: {
+    color: '#BFDBFE',
+    fontSize: 18,
+    marginLeft: 8,
   },
 
 });
