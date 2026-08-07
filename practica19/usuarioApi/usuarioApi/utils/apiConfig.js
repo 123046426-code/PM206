@@ -6,6 +6,14 @@ export function getApiBase() {
 
   // Try to get the dev machine IP from Expo constants
   const manifest = Constants.manifest || Constants.expoConfig || {};
+  
+  // hostUri is the most reliable way in newer Expo SDKs (SDK 49+)
+  const hostUri = manifest.hostUri;
+  if (hostUri) {
+    const host = hostUri.split(':')[0];
+    return `http://${host}:5000`;
+  }
+
   const debuggerHost = manifest.debuggerHost || manifest.packagerOpts?.devClient?.host || '';
   if (debuggerHost) {
     const host = debuggerHost.split(':')[0];
