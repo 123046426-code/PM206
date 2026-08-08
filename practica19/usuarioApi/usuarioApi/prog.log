@@ -1,0 +1,5 @@
+node_modules=True
+expo-font-pkg=True
+rng-pkg=False
+expo-cli=False
+install-log-size=4545

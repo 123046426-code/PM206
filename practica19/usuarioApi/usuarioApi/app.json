@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "repa2",
+    "name": "Usuarios API",
     "slug": "repa2",
     "scheme": "repa2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/splash-icon.png",
+    "icon": "./assets/gear.jpg",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/gear.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,18 +18,34 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/gear.jpg",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.andybadillo.repa2",
-      "usesCleartextTraffic": true
+      "package": "com.andybadillo.repa2"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/gear.jpg"
     },
     "plugins": [
-      "expo-router"
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/gear.jpg",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
     ],
     "extra": {
       "router": {},

@@ -1,0 +1,6 @@
+repa2@1.0.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi
+└── expo@ invalid: "~54.0.36" from the root project
+
+npm error code ELSPROBLEMS
+npm error invalid: expo@ d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\expo
+npm error A complete log of this run can be found in: C:\Users\andre\AppData\Local\npm-cache\_logs\2026-08-07T22_05_10_386Z-debug-0.log

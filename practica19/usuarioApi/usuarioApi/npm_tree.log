@@ -1,0 +1,159 @@
+repa2@1.0.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi
+├── @babel/plugin-syntax-async-generators@7.8.4 extraneous
+├── @babel/plugin-syntax-bigint@7.8.3 extraneous
+├── @babel/plugin-syntax-class-properties@7.12.13 extraneous
+├── @babel/plugin-syntax-class-static-block@7.14.5 extraneous
+├── @babel/plugin-syntax-import-attributes@7.29.7 extraneous
+├── @babel/plugin-syntax-import-meta@7.10.4 extraneous
+├── @babel/plugin-syntax-json-strings@7.8.3 extraneous
+├── @babel/plugin-syntax-logical-assignment-operators@7.10.4 extraneous
+├── @babel/plugin-syntax-numeric-separator@7.10.4 extraneous
+├── @babel/plugin-syntax-object-rest-spread@7.8.3 extraneous
+├── @babel/plugin-syntax-optional-catch-binding@7.8.3 extraneous
+├── @babel/plugin-syntax-private-property-in-object@7.14.5 extraneous
+├── @babel/plugin-syntax-top-level-await@7.14.5 extraneous
+├── @expo/vector-icons@15.1.1
+├── @istanbuljs/load-nyc-config@1.1.0 extraneous
+├── @istanbuljs/schema@0.1.6 extraneous
+├── @jest/create-cache-key-function@29.7.0 extraneous
+├── @jest/environment@29.7.0 extraneous
+├── @jest/fake-timers@29.7.0 extraneous
+├── @jest/transform@29.7.0 extraneous
+├── @react-native/assets-registry@0.81.5 extraneous
+├── @react-native/community-cli-plugin@0.81.5 extraneous
+├── @react-native/gradle-plugin@0.81.5 extraneous
+├── @react-native/js-polyfills@0.81.5 extraneous
+├── @react-navigation/native@7.3.16
+├── @react-navigation/stack@7.10.22
+├── @sinonjs/commons@3.0.1 extraneous
+├── @sinonjs/fake-timers@10.3.0 extraneous
+├── @types/babel__core@7.20.5 extraneous
+├── @types/babel__generator@7.27.0 extraneous
+├── @types/babel__template@7.4.4 extraneous
+├── @types/babel__traverse@7.28.0 extraneous
+├── @types/graceful-fs@4.1.9 extraneous
+├── @types/stack-utils@2.0.3 extraneous
+├── abort-controller@3.0.0 extraneous
+├── anymatch@3.1.3 extraneous
+├── argparse@1.0.10 extraneous
+├── babel-jest@29.7.0 extraneous
+├── babel-plugin-istanbul@6.1.1 extraneous
+├── babel-plugin-jest-hoist@29.6.3 extraneous
+├── babel-preset-current-node-syntax@1.2.0 extraneous
+├── babel-preset-jest@29.6.3 extraneous
+├── esprima@4.0.1 extraneous
+├── event-target-shim@5.0.1 extraneous
+├── expo-build-properties@1.0.10
+├── expo-constants@18.0.13
+├── expo-font@14.0.12
+├── expo-linking@8.0.12
+├── expo-router@6.0.24
+├── expo-splash-screen@31.0.13
+├── expo-status-bar@3.0.9
+├── expo@54.0.36
+├── fast-json-stable-stringify@2.1.0 extraneous
+├── find-up@4.1.0 extraneous
+├── get-package-type@0.1.0 extraneous
+├── imurmurhash@0.1.4 extraneous
+├── istanbul-lib-coverage@3.2.2 extraneous
+├── istanbul-lib-instrument@5.2.1 extraneous
+├── jest-environment-node@29.7.0 extraneous
+├── jest-haste-map@29.7.0 extraneous
+├── jest-message-util@29.7.0 extraneous
+├── jest-mock@29.7.0 extraneous
+├── jest-regex-util@29.6.3 extraneous
+├── js-yaml@3.15.1 extraneous
+├── locate-path@5.0.0 extraneous
+├── memoize-one@5.2.1 extraneous
+├── normalize-path@3.0.0 extraneous
+├── p-locate@4.1.0 extraneous
+├── p-try@2.2.0 extraneous
+├── path-exists@4.0.0 extraneous
+├── promise@8.3.0 extraneous
+├── react-devtools-core@6.1.5 extraneous
+├── react-dom@19.1.0
+├── react-native-gesture-handler@2.28.0
+├── react-native-safe-area-context@5.6.2
+├── react-native-screens@4.16.0
+├── react-native-web@0.21.2
+├── react-native@ invalid: "0.81.5" from the root project
+├── react@19.1.0
+├── regenerator-runtime@0.13.11 extraneous
+├── shell-quote@1.10.0 extraneous
+├── sprintf-js@1.0.3 extraneous
+├── stack-utils@2.0.6 extraneous
+├── test-exclude@6.0.0 extraneous
+├── type-detect@4.0.8 extraneous
+└── write-file-atomic@4.0.2 extraneous
+
+npm error code ELSPROBLEMS
+npm error extraneous: @babel/plugin-syntax-async-generators@7.8.4 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@babel\plugin-syntax-async-generators
+npm error extraneous: @babel/plugin-syntax-bigint@7.8.3 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@babel\plugin-syntax-bigint
+npm error extraneous: @babel/plugin-syntax-class-properties@7.12.13 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@babel\plugin-syntax-class-properties
+npm error extraneous: @babel/plugin-syntax-class-static-block@7.14.5 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@babel\plugin-syntax-class-static-block
+npm error extraneous: @babel/plugin-syntax-import-attributes@7.29.7 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@babel\plugin-syntax-import-attributes
+npm error extraneous: @babel/plugin-syntax-import-meta@7.10.4 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@babel\plugin-syntax-import-meta
+npm error extraneous: @babel/plugin-syntax-json-strings@7.8.3 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@babel\plugin-syntax-json-strings
+npm error extraneous: @babel/plugin-syntax-logical-assignment-operators@7.10.4 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@babel\plugin-syntax-logical-assignment-operators
+npm error extraneous: @babel/plugin-syntax-numeric-separator@7.10.4 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@babel\plugin-syntax-numeric-separator
+npm error extraneous: @babel/plugin-syntax-object-rest-spread@7.8.3 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@babel\plugin-syntax-object-rest-spread
+npm error extraneous: @babel/plugin-syntax-optional-catch-binding@7.8.3 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@babel\plugin-syntax-optional-catch-binding
+npm error extraneous: @babel/plugin-syntax-private-property-in-object@7.14.5 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@babel\plugin-syntax-private-property-in-object
+npm error extraneous: @babel/plugin-syntax-top-level-await@7.14.5 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@babel\plugin-syntax-top-level-await
+npm error extraneous: @istanbuljs/load-nyc-config@1.1.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@istanbuljs\load-nyc-config
+npm error extraneous: @istanbuljs/schema@0.1.6 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@istanbuljs\schema
+npm error extraneous: @jest/create-cache-key-function@29.7.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@jest\create-cache-key-function
+npm error extraneous: @jest/environment@29.7.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@jest\environment
+npm error extraneous: @jest/fake-timers@29.7.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@jest\fake-timers
+npm error extraneous: @jest/transform@29.7.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@jest\transform
+npm error extraneous: @react-native/assets-registry@0.81.5 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@react-native\assets-registry
+npm error extraneous: @react-native/community-cli-plugin@0.81.5 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@react-native\community-cli-plugin
+npm error extraneous: @react-native/gradle-plugin@0.81.5 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@react-native\gradle-plugin
+npm error extraneous: @react-native/js-polyfills@0.81.5 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@react-native\js-polyfills
+npm error extraneous: @sinonjs/commons@3.0.1 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@sinonjs\commons
+npm error extraneous: @sinonjs/fake-timers@10.3.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@sinonjs\fake-timers
+npm error extraneous: @types/babel__core@7.20.5 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@types\babel__core
+npm error extraneous: @types/babel__generator@7.27.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@types\babel__generator
+npm error extraneous: @types/babel__template@7.4.4 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@types\babel__template
+npm error extraneous: @types/babel__traverse@7.28.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@types\babel__traverse
+npm error extraneous: @types/graceful-fs@4.1.9 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@types\graceful-fs
+npm error extraneous: @types/stack-utils@2.0.3 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\@types\stack-utils
+npm error extraneous: abort-controller@3.0.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\abort-controller
+npm error extraneous: anymatch@3.1.3 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\anymatch
+npm error extraneous: argparse@1.0.10 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\argparse
+npm error extraneous: babel-jest@29.7.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\babel-jest
+npm error extraneous: babel-plugin-istanbul@6.1.1 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\babel-plugin-istanbul
+npm error extraneous: babel-plugin-jest-hoist@29.6.3 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\babel-plugin-jest-hoist
+npm error extraneous: babel-preset-current-node-syntax@1.2.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\babel-preset-current-node-syntax
+npm error extraneous: babel-preset-jest@29.6.3 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\babel-preset-jest
+npm error extraneous: esprima@4.0.1 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\esprima
+npm error extraneous: event-target-shim@5.0.1 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\event-target-shim
+npm error extraneous: fast-json-stable-stringify@2.1.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\fast-json-stable-stringify
+npm error extraneous: find-up@4.1.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\find-up
+npm error extraneous: get-package-type@0.1.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\get-package-type
+npm error extraneous: imurmurhash@0.1.4 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\imurmurhash
+npm error extraneous: istanbul-lib-coverage@3.2.2 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\istanbul-lib-coverage
+npm error extraneous: istanbul-lib-instrument@5.2.1 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\istanbul-lib-instrument
+npm error extraneous: jest-environment-node@29.7.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\jest-environment-node
+npm error extraneous: jest-haste-map@29.7.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\jest-haste-map
+npm error extraneous: jest-message-util@29.7.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\jest-message-util
+npm error extraneous: jest-mock@29.7.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\jest-mock
+npm error extraneous: jest-regex-util@29.6.3 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\jest-regex-util
+npm error extraneous: js-yaml@3.15.1 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\js-yaml
+npm error extraneous: locate-path@5.0.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\locate-path
+npm error extraneous: memoize-one@5.2.1 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\memoize-one
+npm error extraneous: normalize-path@3.0.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\normalize-path
+npm error extraneous: p-locate@4.1.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\p-locate
+npm error extraneous: p-try@2.2.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\p-try
+npm error extraneous: path-exists@4.0.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\path-exists
+npm error extraneous: promise@8.3.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\promise
+npm error extraneous: react-devtools-core@6.1.5 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\react-devtools-core
+npm error invalid: react-native@ d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\react-native
+npm error extraneous: regenerator-runtime@0.13.11 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\regenerator-runtime
+npm error extraneous: shell-quote@1.10.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\shell-quote
+npm error extraneous: sprintf-js@1.0.3 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\sprintf-js
+npm error extraneous: stack-utils@2.0.6 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\stack-utils
+npm error extraneous: test-exclude@6.0.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\test-exclude
+npm error extraneous: type-detect@4.0.8 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\type-detect
+npm error extraneous: write-file-atomic@4.0.2 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\write-file-atomic
+npm error A complete log of this run can be found in: C:\Users\andre\AppData\Local\npm-cache\_logs\2026-08-07T22_28_49_357Z-debug-0.log

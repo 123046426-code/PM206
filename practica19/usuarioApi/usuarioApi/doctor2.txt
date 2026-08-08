@@ -1,0 +1,1 @@
+Error: node d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\expo\bin\cli config --json --full exited with non-zero code: 1

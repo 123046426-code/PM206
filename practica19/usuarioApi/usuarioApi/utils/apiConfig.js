@@ -1,29 +1,24 @@
 import Constants from 'expo-constants';
 import { Platform } from 'react-native';
 
-export function getApiBase() {
-  if (Platform.OS === 'web') return 'http://localhost:5000';
+// IP fija de la máquina donde corre el backend (FastAPI)
+const API_IP = '10.16.72.153';
+const API_PORT = '5000';
 
-  // Try to get the dev machine IP from Expo constants
+export function getApiBase() {
+  if (Platform.OS === 'web') return `http://localhost:${API_PORT}`;
+
+  // En builds de producción (APK) no hay hostUri, así que usamos la IP fija.
+  // En desarrollo (Expo Go) se intenta obtener la IP del servidor de desarrollo.
   const manifest = Constants.manifest || Constants.expoConfig || {};
-  
-  // hostUri is the most reliable way in newer Expo SDKs (SDK 49+)
   const hostUri = manifest.hostUri;
+
   if (hostUri) {
     const host = hostUri.split(':')[0];
-    return `http://${host}:5000`;
+    // Solo usa el host de desarrollo si coincide con el backend local
+    return `http://${host}:${API_PORT}`;
   }
 
-  const debuggerHost = manifest.debuggerHost || manifest.packagerOpts?.devClient?.host || '';
-  if (debuggerHost) {
-    const host = debuggerHost.split(':')[0];
-    return `http://${host}:5000`;
-  }
-
-  // Fallbacks commonly used for emulators
-  // Android emulator (emulator): 10.0.2.2
-  // Android emulator (Genymotion): 10.0.3.2
-  // iOS simulator: localhost
-  if (Platform.OS === 'android') return 'http://10.0.2.2:5000';
-  return 'http://localhost:5000';
+  // APK/producción: conectar a la IP fija del backend
+  return `http://${API_IP}:${API_PORT}`;
 }

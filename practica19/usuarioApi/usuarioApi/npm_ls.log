@@ -1,0 +1,7 @@
+repa2@1.0.0 d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi
+└─┬ expo@54.0.36
+  └── @expo/cli@ invalid: "54.0.26" from node_modules/expo
+
+npm error code ELSPROBLEMS
+npm error invalid: @expo/cli@ d:\Escritorio\Noveno Cuatrimestre\Programacion movil\PM206\practica19\usuarioApi\usuarioApi\node_modules\expo\node_modules\@expo\cli
+npm error A complete log of this run can be found in: C:\Users\andre\AppData\Local\npm-cache\_logs\2026-08-07T21_50_02_420Z-debug-0.log
